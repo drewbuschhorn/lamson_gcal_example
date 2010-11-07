@@ -10,7 +10,7 @@ receiver_config = {'host': 'localhost', 'port': 8823}
 
 handlers = ['app.handlers.sample']
 
-router_defaults = {'host': '.+'}
+router_defaults = {'host': 'localhost'}
 
 template_config = {'dir': 'app', 'module': 'templates'}
 
