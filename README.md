@@ -10,16 +10,16 @@ Quick setup commands:
 0. Follow Lamson's creator Zed Shaw's 30 second install guide ( setup notes in blog post ).  
 [http://lamsonproject.org/docs/getting_started.html](http://lamsonproject.org/docs/getting_started.html)  
 <code>
-    $ easy_install lamson
-    $ lamson gen -project mymailserver
-    $ cd mymailserver
-    $ lamson start
-    $ lamson log
-    $ nosetests
-    $ lamson help -for send
-    $ lamson send -sender me@mydomain.com -to test@test.com -subject “My test.” -body “Hi there.” -port 8823
-    $ less logs/lamson.log
-    $ mutt -F muttrc
+    $ easy_install lamson  
+    $ lamson gen -project mymailserver  
+    $ cd mymailserver  
+    $ lamson start  
+    $ lamson log  
+    $ nosetests  
+    $ lamson help -for send  
+    $ lamson send -sender me@mydomain.com -to test@test.com -subject “My test.” -body “Hi there.” -port 8823  
+    $ less logs/lamson.log  
+    $ mutt -F muttrc  
 </code>
 
 1. Create a containing folder.  
