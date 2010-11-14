@@ -8,23 +8,31 @@ http://verpa.wordpress.com/2010/11/13/making-your-webapp-react-to-emails-with-la
 Quick setup commands:
 ---
 0. Follow Lamson's creator Zed Shaw's 30 second install guide ( setup notes in blog post ).
-http://lamsonproject.org/docs/getting_started.html
+[http://lamsonproject.org/docs/getting_started.html](http://lamsonproject.org/docs/getting_started.html)
 >$ easy_install lamson
+>
 >$ lamson gen -project mymailserver
+>
 >$ cd mymailserver
+>
 >$ lamson start
+>
 >$ lamson log
+>
 >$ nosetests
+>
 >$ lamson help -for send
->$ lamson send -sender me@mydomain.com -to test@test.com \
-        -subject “My test.” -body “Hi there.” -port 8823
+>
+>$ lamson send -sender me@mydomain.com -to test@test.com -subject “My test.” -body “Hi there.” -port 8823
+>
 >$ less logs/lamson.log
+>
 >$ mutt -F muttrc
 
 1. Create a containing folder.
 
 2. Into the containing folder, download and extract Google GData library:
-http://code.google.com/p/gdata-python-client/downloads/detail?name=gdata-2.0.5.tar.gz
+[gdata-2.0.5.tar.gz](http://code.google.com/p/gdata-python-client/downloads/detail?name=gdata-2.0.5.tar.gz)
 and clone this github repo:
 `git clone https://github.com/drewbuschhorn/lamson_gcal_example.git`
 
